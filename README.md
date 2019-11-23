@@ -39,17 +39,13 @@ class ClassName: BaseClassName  {
     super.name()
     // [Enter]
     // Code
-    // [Enter]
     return param
-    // [Enter]
   }
   // [Enter]
   func otherfunc() {
     // [Enter]
     // Code
-    // [Enter]
   }
-
 }
 ```
 
