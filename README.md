@@ -11,7 +11,6 @@ This document explains Swift language rules, which are accepted by Itexus iOS te
 class Name {
 // [Enter]
 // Code
-// [Enter]
 }
 ```
 
@@ -43,7 +42,6 @@ class ClassName: BaseClassName  {
   }
   // [Enter]
   func otherfunc() {
-    // [Enter]
     // Code
   }
 }
@@ -82,10 +80,10 @@ class ClassName: BaseClassName  {
 
 ### TODOs
 ```Swift
-//TODO: - Some work
+//TODO: Some work
 ```
 
 ### MARKs
 ```Swift
-//MARK: - Private
+//MARK: Private
 ```
