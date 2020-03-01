@@ -24,7 +24,6 @@ class Name {
   // [Enter]
   fileprivate lazy var viewModel = FirstViewModel()
   fileprivate lazy var loginModel = LoginViewModel()
-
 }
 ```
 
