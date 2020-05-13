@@ -303,6 +303,7 @@ else {
 **Preferred**:
 ```swift
 class TestDatabase: Database {
+
   var data: [String: CGFloat] = ["A": 1.2, "B": 3.2]
 }
 ```
@@ -310,6 +311,7 @@ class TestDatabase: Database {
 **Not Preferred**:
 ```swift
 class TestDatabase : Database {
+
   var data :[String:CGFloat] = ["A" : 1.2, "B":3.2]
 }
 ```
