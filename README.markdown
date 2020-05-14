@@ -347,7 +347,7 @@ class Circle: Shape {
   var x: Int, y: Int
   var radius: Double
   var diameter: Double {
-    get { return radius * 2 }
+    get { radius * 2 }
     set { radius = newValue / 2 }
   }
 
@@ -362,17 +362,17 @@ class Circle: Shape {
   }
 
   override func area() -> Double {
-    return Double.pi * radius * radius
+    Double.pi * radius * radius
   }
 }
 
 extension Circle: CustomStringConvertible {
 
-  var description: String {
-    return "center = \(centerString) area = \(area())"
-  }
   private var centerString: String {
-    return "(\(x),\(y))"
+    "(\(x),\(y))"
+  }
+  var description: String {
+    "center = \(centerString) area = \(area())"
   }
 }
 ```
