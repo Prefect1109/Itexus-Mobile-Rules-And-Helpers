@@ -43,7 +43,7 @@ The style guide has created for comfort and an easier understanding of code. The
 * [Semicolons](#semicolons)
 * [Parentheses](#parentheses)
 * [Multi-line String Literals](#multi-line-string-literals)
-* [Sequence of elements](#sequence-of-elements)
+* [Priority of elements](#priprity-of-elements)
 * [No Emoji](#no-emoji)
 * [Copyright Statement](#copyright-statement)
 * [References](#references)
