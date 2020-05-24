@@ -5,4 +5,4 @@ In our repository, you can see the mobile team rules.
 ## Links
 
 1. [Lint](/Lint)
-2. [Pull Request](/PullRequests)
+2. [Pull Request](/Pull%20Requests)
