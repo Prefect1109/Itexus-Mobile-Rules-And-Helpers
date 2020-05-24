@@ -4,5 +4,5 @@ In our repository, you can see the mobile team rules.
 
 ## Links
 
-1. Lint [Git](/Lint)
-2. Pull Request [Git](/Pull Requests)
+1. [Lint](/Lint)
+2. [Pull Request](/PullRequests)
