@@ -43,6 +43,7 @@ The style guide has created for comfort and an easier understanding of code. The
 * [Semicolons](#semicolons)
 * [Parentheses](#parentheses)
 * [Multi-line String Literals](#multi-line-string-literals)
+* [Sequence of elements](#sequence-of-elements)
 * [No Emoji](#no-emoji)
 * [Copyright Statement](#copyright-statement)
 * [References](#references)
@@ -1015,6 +1016,82 @@ let message = "You cannot charge the flux " +
   "You must use a super-charger " +
   "which costs 10 credits. You currently " +
   "have \(credits) credits available."
+```
+
+## Priority of elements
+
+```swift
+
+class SomeClass {
+
+  private static let privateStaticInitLet = PrivateStaticLet()
+  private static let privateStaticLet: PrivateStaticLet
+  private static var privateStaticInitVar = PrivateStaticVar()
+  private static var privateStaticVar: PrivateStaticVar
+  
+  static let staticInitLet = StaticLet()
+  static let staticLet: StaticLet()
+  static var staticInitVar = StaticVar()
+  static var staticVar: StaticVar()
+  
+  @IBOutle private var someView: SomeView!
+  
+  @IBInspectable var someInspectable: Float {
+      set {}
+      get {}
+  }
+  
+  private let privateInitLet = PrivateLet()
+  private let privateLet: PrivateLet
+  private var privateInitVar = PrivateVar()
+  private var privateVar: PrivateVar()
+  private lazy var someValue: String { "Hello World" }
+  
+  let initLet = SomeLet()
+  let soneLet: SomeLet
+  var someVar = SomeVar()
+  var someVar: SomeVar()
+  lazy var someValue: String { "Hello World" }
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    setup()
+    bind()
+  }
+  
+  func someFunc() {}
+}
+
+//MARK: Setup
+private extension SomeClass {
+
+  func setup {}
+}
+
+//MARK: Binding
+private extension SomeClass {
+
+  func bind {}
+}
+
+//MARK: Private
+private extension SomeClass {
+
+  func somePrivateFunc {}
+}
+
+//MARK: FirsDelegate
+extension SomeClass: FirsDelegate {
+
+  func someDelegateFunc() {}
+}
+
+//MARK: SecondDelegate
+extension SomeClass: SecondDelegate {
+
+  func someDelegateFunc() {}
+}
 ```
 
 ## No Emoji
