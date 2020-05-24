@@ -43,7 +43,7 @@ The style guide has created for comfort and an easier understanding of code. The
 * [Semicolons](#semicolons)
 * [Parentheses](#parentheses)
 * [Multi-line String Literals](#multi-line-string-literals)
-* [Priority of elements](#priprity-of-elements)
+* [Priority of elements](#priority-of-elements)
 * [No Emoji](#no-emoji)
 * [Copyright Statement](#copyright-statement)
 * [References](#references)
@@ -1037,8 +1037,8 @@ class SomeClass {
   @IBOutle private var someView: SomeView!
   
   @IBInspectable var someInspectable: Float {
-      set {}
-      get {}
+    set {}
+    get {}
   }
   
   private let privateInitLet = PrivateLet()
