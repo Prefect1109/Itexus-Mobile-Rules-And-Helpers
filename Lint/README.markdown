@@ -43,6 +43,7 @@ The style guide has created for comfort and an easier understanding of code. The
 * [Semicolons](#semicolons)
 * [Parentheses](#parentheses)
 * [Multi-line String Literals](#multi-line-string-literals)
+* [Length of project elements](#length-of-project-elements)
 * [Priority of elements](#priority-of-elements)
 * [No Emoji](#no-emoji)
 * [Copyright Statement](#copyright-statement)
@@ -1017,6 +1018,12 @@ let message = "You cannot charge the flux " +
   "which costs 10 credits. You currently " +
   "have \(credits) credits available."
 ```
+
+## Length of project elements
+
+- The length of classes, structs, enums needs to be less than 250 rows.
+- The length of function needs to be less than 20 rows and less that 5 params, the rule for params not working for initialization.
+- The names of function, class, property or etc. length need to be less than 30 symbols.
 
 ## Priority of elements
 
