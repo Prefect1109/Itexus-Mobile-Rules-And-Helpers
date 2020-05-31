@@ -1022,8 +1022,9 @@ let message = "You cannot charge the flux " +
 ## Length of project elements
 
 - The length of classes, structs, enums needs to be less than 250 rows.
-- The length of function needs to be less than 20 rows and less that 5 params, the rule for params not working for initialization.
-- The names of function, class, property or etc. length need to be less than 30 symbols.
+- The length of function needs to be less than 30 rows and less that 5 params, the rule for params not working for initialization.
+- The line length needs to be less than 120 symbols.
+- The names of function, class, property or etc. length need to be less than 40 symbols.
 
 ## Priority of elements
 
