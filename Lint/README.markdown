@@ -1,6 +1,6 @@
 # The Official Itexus Mobile Swift Style Guide.
 
-The style guide has created for comfort and an easier understanding of code. The basis was to take [Ray Wenderlich swift style guide](https://github.com/raywenderlich/swift-style-guide)
+The style guide has created for comfort and an easier understanding of code. The basis was to take [Ray Wenderlich swift style guide](https://github.com/raywenderlich/swift-style-guide). For visualization of errors in the code style using [Swift Lint](https://github.com/realm/SwiftLint). In our repository attached file for this tool.
 
 ## Table of Contents
 

@@ -1,0 +1,34 @@
+disabled_rules:
+  - trailing_whitespace
+opt_in_rules:
+  - empty_count
+  - private_outlet
+  - implicit_return
+included:
+  SwiftLint # Project name
+excluded:
+  - Pods
+  - SwiftLint/Classes/Application/R.generated.swift # If in our project we use R.swift, we need to add R.generated file to the exception.
+
+file_length:
+  warning: 250
+line_length:
+  warning: 120
+type_name:
+  min_length: 3
+  max_length: 40
+identifier_name:
+  severity: warning
+  min_length: 3
+  max_length: 40
+force_cast: warning
+force_try:
+  severity: warning
+function_body_length:
+  - 30
+  - 40
+function_parameter_count:
+  warning: 5
+nesting:
+  type_level:
+    warning: 2
