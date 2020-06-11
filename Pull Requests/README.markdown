@@ -1,6 +1,6 @@
 # The Official Itexus Mobile Pull Requests Guide.
 
-We're using pull requests to enhance code cleanliness and codebase understandability for all of our iOS team members. After creating a pull request you need to notify the rest of the team by posting a Slack message in #pull-request channel. For standardizing the flow of reviewing, we use 8 rules
+We're using pull requests to enhance code cleanliness and codebase understandability for all of our Mobile team members. After creating a pull request you need to notify the rest of the team by posting a Slack message in #pull-request channel. For standardizing the flow of reviewing, we use 8 rules
 
 ## Rules
 
