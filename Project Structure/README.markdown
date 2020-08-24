@@ -4,12 +4,12 @@
 Project Name
 .
 ├── Classes
-│   ├── Application
+│	├── Application
 │	│	├── AppDelegate.swift
 │	│	├── Info.plist
 │	│	└── R.generated.swift
 │	│
-│   ├── Common
+│	├── Common
 │	│	├── Extensions
 │	│	│	├── Reactive.swift
 │	│	│	└── UIView
@@ -28,7 +28,7 @@ Project Name
 │	│	│			└── AuthAPI.swift
 │	│	├── Protocols
 │	│	└── Credentials.swift
-│   ├── Modules
+│	├── Modules
 │	│	└── Auth
 │	│		├── Auth.storyboard
 │	│		├── LogIn
@@ -38,9 +38,9 @@ Project Name
 │	│		│	└── LogInConfigurator.swift
 │	│		└── SignUp
 │	│
-│   ├── Views
+│	├── Views
 │	│	└── Auth
-│   └── UseCases
+│	└── UseCases
 ├── Resources
 │   ├── Assets.xcassets
 │   ├── LaunchScreen.storyboard
