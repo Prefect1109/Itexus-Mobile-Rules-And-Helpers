@@ -28,6 +28,7 @@ Project Name
 │	│	│			└── AuthAPI.swift
 │	│	├── Protocols
 │	│	└── Credentials.swift
+│	│
 │	├── Modules
 │	│	└── Auth
 │	│		├── Auth.storyboard
@@ -40,7 +41,9 @@ Project Name
 │	│
 │	├── Views
 │	│	└── Auth
+│	│
 │	└── UseCases
+│
 ├── Resources
 │   ├── Assets.xcassets
 │   ├── LaunchScreen.storyboard
