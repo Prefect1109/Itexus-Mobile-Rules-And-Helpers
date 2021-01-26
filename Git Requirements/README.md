@@ -1,8 +1,9 @@
 # Git Requirements
 
 
-## 1. Working in a branch
-## 2. Git flow
+### Table of Contents
+#### 1. Working in a branch
+#### 2. Git flow
 
 
 ## Working in a branch
