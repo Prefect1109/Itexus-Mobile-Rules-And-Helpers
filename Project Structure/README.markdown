@@ -1,4 +1,4 @@
-# The Official Itexus iOS project structure.
+# The Official Itexus iOS Project Structure.
 
 ```
 Project Name
